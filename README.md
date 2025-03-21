@@ -1,6 +1,6 @@
 # clean_reporter
 
-This gem is an opionated reporter for minitest with the intention of reducing the visual clutter.
+This gem is an opinionated reporter for minitest with the intention of reducing visual clutter.
 
 By default minitest will show the test duration to 6 decimal places, along with statistics on the test run.
 
@@ -8,7 +8,7 @@ By default minitest will show the test duration to 6 decimal places, along with 
 Finished in 0.005735s, 3836.0942 runs/s, 3836.0942 assertions/s.
 ```
 
-While that information might be occasionally useful, usually we are just interestd to if the tests are passing or not.
+While that information might be occasionally useful, usually we are just interested to know if the tests are passing or not.
 
 clean_reporter reduces the above output to just:
 
