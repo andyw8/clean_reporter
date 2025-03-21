@@ -5,6 +5,7 @@ require "minitest/reporters"
 
 module CleanReporter
   class Error < StandardError; end
+
   class Reporter < Minitest::Reporters::DefaultReporter
     def on_report
       status_line = "Finished tests in %.1fs" % [total_time]
