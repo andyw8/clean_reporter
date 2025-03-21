@@ -7,8 +7,7 @@ module CleanReporter
   class Error < StandardError; end
   class Reporter < Minitest::Reporters::DefaultReporter
     def on_report
-      status_line = "Finished tests in %.6fs, %.4f tests/s, %.4f assertions/s." %
-        [total_time, count / total_time, assertions / total_time]
+      status_line = "Finished tests in %.1fs" % [total_time]
 
       puts
       puts
